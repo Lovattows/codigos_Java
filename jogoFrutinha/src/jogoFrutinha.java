@@ -49,7 +49,7 @@ public class jogoFrutinha extends javax.swing.JFrame {
                 jButton_player1.getWidth(), jButton_player1.getHeight());
         jButton_player2.setBounds(random.nextInt(this.getWidth() - 80), random.nextInt(this.getHeight() - 80),
                 jButton_player2.getWidth(), jButton_player2.getHeight());
-        JOptionPane.showMessageDialog(this, "Ready?");
+        JOptionPane.showMessageDialog(this, "PRONTO?");
     }
 
     @SuppressWarnings("unchecked")
@@ -63,7 +63,7 @@ public class jogoFrutinha extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Jogo da Frutinha");
+        setTitle("JOGO DA FRUTINHA");
 
         jButton_player1.setText("PLAYER1");
         jButton_player1.setFocusable(false);
