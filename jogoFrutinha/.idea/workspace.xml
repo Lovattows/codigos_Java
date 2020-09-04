@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="887d38da-269f-488b-9f10-666f0c1be98f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1h1maoaPtM8gjocyHEWCBo2yUDr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="jogoFrutinha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jogoFrutinha" />
+      <module name="JogoFrutinha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lvt\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="887d38da-269f-488b-9f10-666f0c1be98f" name="Default Changelist" comment="" />
+      <created>1599187040076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599187040076</updated>
+      <workItem from="1599187041663" duration="1255000" />
+      <workItem from="1599188334410" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="698" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599188025490">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="698" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188025490" />
+    <state x="694" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599188030640">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="694" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188030640" />
+    <state x="743" y="277" key="FileChooserDialogImpl" timestamp="1599188386792">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="743" y="277" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188386792" />
+    <state width="1878" height="278" key="GridCell.Tab.0.bottom" timestamp="1599188297201">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188297201" />
+    <state width="1878" height="278" key="GridCell.Tab.0.center" timestamp="1599188297201">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="278" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188297201" />
+    <state width="1878" height="278" key="GridCell.Tab.0.left" timestamp="1599188297201">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="278" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188297201" />
+    <state width="1878" height="278" key="GridCell.Tab.0.right" timestamp="1599188297201">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state width="1878" height="278" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188297201" />
+    <state x="487" y="154" key="SettingsEditor" timestamp="1599188435917">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="487" y="154" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1599188435917" />
+  </component>
+</project>
