@@ -2,13 +2,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-
 public class Puzzle {
     int dimension = 3;
     int[] row = {1, 0, -1, 0};
     int[] col = {0, -1, 0, 1};
 
-    public int calculateCost(int[][] init, int[][] res) {
+    public int calcularCusto(int[][] init, int[][] res) {
         int count = 0;
         int n = init.length;
         for (int i = 0; i < n; i++) {
@@ -21,34 +20,34 @@ public class Puzzle {
         return count;
     }
 
-    public void printMatrix(int[][] matrix) {
-        for (int[] ints : matrix) {
-            for (int j = 0; j < matrix.length; j++) {
+    public void printarMatriz(int[][] matriz) {
+        for (int[] ints : matriz) {
+            for (int j = 0; j < matriz.length; j++) {
                 System.out.print(ints[j] + " ");
             }
             System.out.println();
         }
     }
 
-    public boolean isSafe(int x, int y) {
+    public boolean ehSeguro(int x, int y) {
         return (x >= 0 && x < dimension && y >= 0 && y < dimension);
     }
 
-    public void printPath(Node root) {
-        if (root == null) {
+    public void printrarCaminho(Node raiz) {
+        if (raiz == null) {
             return;
         }
-        printPath(root.getParent());
-        printMatrix(root.matrix);
+        printrarCaminho(raiz.getParent());
+        printarMatriz(raiz.matrix);
         System.out.println();
     }
 
-    public void isSolvable(int[][] matrix) {
+    public void ehSolucionavel(int[][] matriz) {
         int count = 0;
         List<Integer> array = new ArrayList<Integer>();
 
-        for (int[] ints : matrix) {
-            for (int j = 0; j < matrix.length; j++) {
+        for (int[] ints : matriz) {
+            for (int j = 0; j < matriz.length; j++) {
                 array.add(ints[j]);
             }
         }
@@ -64,23 +63,23 @@ public class Puzzle {
         }
     }
 
-    public void solve(int[][] init, int[][] res, int x, int y) {
+    public void resultado(int[][] init, int[][] res, int x, int y) {
         PriorityQueue<Node> pq = new PriorityQueue<Node>(1000, (a, b) -> (a.cost + a.level) - (b.cost + b.level));
         Node root = new Node(init, x, y, x, y, 0, null);
-        root.cost = calculateCost(init, res);
+        root.cost = calcularCusto(init, res);
         pq.add(root);
 
         while (!pq.isEmpty()) {
             Node min = pq.poll();
             if (min.cost == 0) {
-                printPath(min);
+                printrarCaminho(min);
                 return;
             }
 
             for (int i = 0; i < 4; i++) {
-                if (isSafe(min.x + row[i], min.y + col[i])) {
+                if (ehSeguro(min.x + row[i], min.y + col[i])) {
                     Node child = new Node(min.matrix, min.x, min.y, min.x + row[i], min.y + col[i], min.level + 1, min);
-                    child.cost = calculateCost(child.matrix, res);
+                    child.cost = calcularCusto(child.matrix, res);
                     pq.add(child);
                 }
             }
@@ -94,7 +93,7 @@ public class Puzzle {
         int x = 1, y = 0;
 
         Puzzle puzzle = new Puzzle();
-        puzzle.isSolvable(init);
-        puzzle.solve(init, res, x, y);
+        puzzle.ehSolucionavel(init);
+        puzzle.resultado(init, res, x, y);
     }
 }
